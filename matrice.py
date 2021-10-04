@@ -1,0 +1,26 @@
+a = [[4,5,67,23,12], [2,24,555,778,9], [90,81,15,21,66], [-5,-7,79,203,1], [32,55,85,44,42]]
+print('Suma primului rand =', sum(a[0]))
+print('Suma randului al doilea =', sum(a[1]))
+print('Suma randului al treile =', sum(a[2]))
+print('Suma randulului al patrulea =', sum(a[3]))
+print('Suma randului al cincelea =', sum(a[4]))
+c1=0
+c2=0
+c3=0
+c4=0
+c5=0
+for i in a:
+    c1+=i[0]
+    c2+=i[1]
+    c3+=i[2]
+    c4+=i[3]
+    c5+=i[4]
+print('Suma primei coloane =', c1)
+print('Suma coloanei a doua =', c2)
+print('Suma coloanei a treia =', c3)
+print('Suma coloanei a patra =', c4)
+print('Suma coloanei a cincea =', c5)
+sdp = a[0][0]+a[1][1]+a[2][2]+a[3][3]+a[4][4]
+sds = a[0][4]+a[1][3]+a[2][2]+a[3][1]+a[4][0]
+print('Suma diagonalei principale =', sdp)
+print('Suma diagonalei secundare =', sds)
